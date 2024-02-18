@@ -11,7 +11,7 @@ AFRAME.registerComponent("create-markers", {
             marker.setAttribute("type", "pattern");
             marker.setAttribute("url", toy.marker_pattern_url);
             marker.setAttribute("cursor", { rayOrigin: "mouse" });
-            marker.setAttribute("markerhandler", {});
+            marker.setAttribute("marker-handler", {});
 
             mainScene.appendChild(marker);
     
